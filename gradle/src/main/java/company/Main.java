@@ -9,7 +9,9 @@ public class Main {
         System.out.println("Print instances 1");
         ConnectionUtil connectionUtil1 = ConnectionUtil.getInstance(connection1);
         ConnectionUtil connectionUtil2 = ConnectionUtil.getInstance(connection2);
+        System.out.println(connection1);
         System.out.println(connectionUtil1);
+        System.out.println(connection2);
         System.out.println(connectionUtil2);
 
         System.out.println("Print instances 2");
