@@ -3,8 +3,8 @@ package company;
 public class Main {
 
     public static void main(String[] args) {
-        DataBaseConnection connection1 = new AmazonS3Connection();
-        DataBaseConnection connection2 = new LocalDiscConnection();
+        DataBaseConnection connection1 = new PostgreSQLConnection();
+        DataBaseConnection connection2 = new MongoDBConnection();
 
         System.out.println("Print instances 1");
         ConnectionUtil connectionUtil1 = ConnectionUtil.getInstance(connection1);
